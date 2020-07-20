@@ -1,7 +1,7 @@
-var user = require('../models/user');
+var device_footprint = require('../models/device_footprint');
 
 function load(req, res, next, id) {
-    User.findById(id)
+  device_footprint.findById(id)
       .exec()
       .then((user) => {
         req.dbUser = user;
