@@ -3,11 +3,6 @@ var router = express.Router();
 
 var device_footprint = require('../models').device_footprint
 
-/* GET users listing. */
-// router.get('/', function(req, res, next) {
-//   res.send('respond with a resource');
-// });
-
 router.route('/device_footprint')
   .get(function (req, res) {
     device_footprint.findAll().then(response => {
