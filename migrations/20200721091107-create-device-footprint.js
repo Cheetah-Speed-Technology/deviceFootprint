@@ -20,6 +20,12 @@ module.exports = {
       location: {
         type: Sequelize.STRING
       },
+      useragent: {
+        type: Sequelize.STRING
+      },
+      currenturl: {
+        type: Sequelize.STRING
+      },
       encription: {
         type: Sequelize.STRING
       },

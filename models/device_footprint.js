@@ -18,6 +18,8 @@ module.exports = (sequelize, DataTypes) => {
     browser: DataTypes.STRING,
     os: DataTypes.STRING,
     location: DataTypes.STRING,
+    useragent: DataTypes.STRING,
+    currenturl: DataTypes.STRING,
     encription: DataTypes.STRING
   }, {
     sequelize,
