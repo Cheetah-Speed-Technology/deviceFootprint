@@ -26,6 +26,12 @@ module.exports = {
       currenturl: {
         type: Sequelize.STRING
       },
+      country: {
+        type: Sequelize.STRING
+      },
+      timezone: {
+        type: Sequelize.STRING
+      },
       encription: {
         type: Sequelize.STRING
       },

@@ -4,16 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- <script type="text/javascript" charset="utf-8" src="https://gist.github.com/paoloboschini/5085780.js"></script> -->
+  <!-- <script type="text/javascript" src="./node_modules/device-uuid/lib/device-uuid.js"></script> -->
+  <!-- <script type="text/javascript" src="./device-uuid.js"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Godfadatun/dannyuuid/device-uuid.js"></script>
+  <script type="text/javascript" src="https://wurfl.io/wurfl.js"></script>
   <script src="./main.js"></script>
   <title>footprint</title>
 </head>
 <!-- <body onload="dynamicallyLoadScript()"> -->
 <body>
   <div style="width: 300px; height: 400px;">
+    <!-- buttons to test to multiple functions -->
     <button onclick="getData()">Run API</button>
     <button onclick="getLocation()">Show Location</button>
-    <button onclick="getsiteInfo()">site info</button>
+    <button onclick="getMyIP()">IP</button>
+    <button onclick="encryption()">Encription</button>
+    <button onclick="alldata()">All Data</button>
+
 
   </div>
 </body>
